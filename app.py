@@ -4,7 +4,7 @@ import os
 from flask import Flask, jsonify, request
 from dotenv import load_dotenv
 
-app = Flask(__name__)
+app = Flask(__name__) 
 
 # Replace with your actual API key
 #goo goo gaga
